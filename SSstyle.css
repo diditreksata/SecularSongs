@@ -1,0 +1,187 @@
+/*!
+ * jQuery ReksStyle plugin v3.6.1
+ * Date: Selasa 16 Desember 2016
+ * Didit GemaPujian CSS
+ */
+.toggle_lyrics {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cf0e00), color-stop(1, #f5f5f5) );
+	background:-moz-linear-gradient( center top, #cf0e00 5%, #f5f5f5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#cf0e00&#39;, endColorstr=&#39;#f5f5f5&#39;);
+	background-color:#cf0e00;
+	-webkit-border-top-left-radius:12px;
+	-moz-border-radius-topleft:12px;
+	border-top-left-radius:12px;
+	-webkit-border-top-right-radius:12px;
+	-moz-border-radius-topright:12px;
+	border-top-right-radius:12px;
+	-webkit-border-bottom-right-radius:12px;
+	-moz-border-radius-bottomright:12px;
+	border-bottom-right-radius:12px;
+	-webkit-border-bottom-left-radius:12px;
+	-moz-border-radius-bottomleft:12px;
+	border-bottom-left-radius:12px;
+	text-indent:0;
+	border:1px solid #333232;
+	display:inline-block;
+	color:#11052b !important;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:normal;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:110px;
+	text-decoration:none;
+	text-align:center;
+}
+.toggle_lyrics:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f5f5f5), color-stop(1, #cf0e00) );
+	background:-moz-linear-gradient( center top, #f5f5f5 5%, #cf0e00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#f5f5f5&#39;, endColorstr=&#39;#cf0e00&#39;);
+	background-color:#f5f5f5; color: #ffffff !important;
+}.toggle_lyrics:active {
+	position:relative;
+	top:1px;
+}
+.SongIndex {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	-webkit-border-top-left-radius:1px;
+	-moz-border-radius-topleft:1px;
+	border-top-left-radius:1px;
+	-webkit-border-top-right-radius:1px;
+	-moz-border-radius-topright:1px;
+	border-top-right-radius:1px;
+	-webkit-border-bottom-right-radius:1px;
+	-moz-border-radius-bottomright:1px;
+	border-bottom-right-radius:1px;
+	-webkit-border-bottom-left-radius:1px;
+	-moz-border-radius-bottomleft:1px;
+	border-bottom-left-radius:1px;
+	text-indent:0;
+	border:1px solid #141414;
+	display:inline-block;
+	color:#3d3a3d;
+	font-family:arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:21px;
+	line-height:21px;
+	width:21px;
+	text-decoration:none;
+	text-align:center;
+    margin:1px
+}.SongIndex:hover {
+	background-color:#1e62d0; 
+color: #ffffff !important; font-weight: bold;
+	
+}.SongIndex:active {
+	position:relative;
+	top:1px;
+}
+
+.ListLagu {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, aqua), color-stop(1, white) );
+	background:-moz-linear-gradient( center top, #cf0e00 5%, #f5f5f5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#cf0e00&#39;, endColorstr=&#39;#f5f5f5&#39;);
+	background-color:#cf0e00;
+	-webkit-border-top-left-radius:1px;
+	-moz-border-radius-topleft:1px;
+	border-top-left-radius:1px;
+	-webkit-border-top-right-radius:1px;
+	-moz-border-radius-topright:1px;
+	border-top-right-radius:1px;
+	-webkit-border-bottom-right-radius:1px;
+	-moz-border-radius-bottomright:1px;
+	border-bottom-right-radius:1px;
+	-webkit-border-bottom-left-radius:1px;
+	-moz-border-radius-bottomleft:1px;
+	border-bottom-left-radius:1px;
+	text-indent:0;
+	border:1px solid #333232;
+	display:inline-block;
+	color: blue !important;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:30px;
+	text-decoration:none;
+	text-align:center;
+    margin:1px
+}
+.ListLagu:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05,white), color-stop(1, green ) );
+	background:-moz-linear-gradient( center top, #f5f5f5 5%, #cf0e00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#f5f5f5&#39;, endColorstr=&#39;#cf0e00&#39;);
+	background-color:#f5f5f5; color: white !important;
+}
+.ListLagu:active {
+	position:relative;
+	top:1px;
+}
+.ListLaguCurrent {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, red), color-stop(1,white) );
+  border-bottom-left-radius:1px;
+  text-indent:0;
+  border:1px solid #333232;
+  display:inline-block;
+  color: black !important;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:normal;
+  font-style:normal;
+  height:30px;
+  line-height:30px;
+  width:30px;
+  text-decoration:none;
+  text-align:center;
+  margin:1px
+}
+.DaftarLirikLagu {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, aqua), color-stop(1, white) );
+	background:-moz-linear-gradient( center top, #cf0e00 5%, #f5f5f5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#cf0e00&#39;, endColorstr=&#39;#f5f5f5&#39;);
+	background-color:#cf0e00;
+	-webkit-border-top-left-radius:1px;
+	-moz-border-radius-topleft:1px;
+	border-top-left-radius:1px;
+	-webkit-border-top-right-radius:1px;
+	-moz-border-radius-topright:1px;
+	border-top-right-radius:1px;
+	-webkit-border-bottom-right-radius:1px;
+	-moz-border-radius-bottomright:1px;
+	border-bottom-right-radius:1px;
+	-webkit-border-bottom-left-radius:1px;
+	-moz-border-radius-bottomleft:1px;
+	border-bottom-left-radius:1px;
+	text-indent:0;
+	border:1px solid #333232;
+	display:inline-block;
+	color: blue !important;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:30px;
+	text-decoration:none;
+	text-align:center;
+    margin:1px
+}
+.DaftarLirikLagu:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05,white), color-stop(1, green ) );
+	background:-moz-linear-gradient( center top, #f5f5f5 5%, #cf0e00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#f5f5f5&#39;, endColorstr=&#39;#cf0e00&#39;);
+	background-color:#f5f5f5; color: white !important;
+}
+.DaftarLirikLagu:active {
+	position:relative;
+	top:1px;
+}
