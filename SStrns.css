@@ -1,0 +1,58 @@
+/*!
+ * jQuery Chord Transposer plugin v3.6.1
+ * Date: Selasa 22 November 2016
+ * Didit Transpose CSS
+ */
+span.c { 
+    color: #2159D6;
+}
+pre {
+font-family: monospace;
+font-size:14px;
+}
+.transpose-keys a {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, aqua), color-stop(1, white) );
+	background:-moz-linear-gradient( center top, #cf0e00 5%, #f5f5f5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#cf0e00&#39;, endColorstr=&#39;#f5f5f5&#39;);
+	background-color:#cf0e00;
+	-webkit-border-top-left-radius:1px;
+	-moz-border-radius-topleft:1px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:1px;
+	-moz-border-radius-topright:1px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:1px;
+	-moz-border-radius-bottomright:1px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:1px;
+	-moz-border-radius-bottomleft:1px;
+	border-bottom-left-radius:5px;
+	text-indent:0;
+	border:1px solid #333232;
+	display:inline-block;
+	color: #000011 !important;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:26px;
+	line-height:26px;
+	width:26px;
+	text-decoration:none;
+	text-align:center;
+    margin:1px
+}
+.transpose-keys a:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fb9e25&#39;, endColorstr=&#39;#ffc477&#39;);
+	background-color:#ffffff;
+}
+.transpose-keys a:active {
+	position:relative;
+	top:1px;
+}
+.transpose-keys a.selected { 
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #f30707) ); 
+  color: #000000; font-size:18px;
+}
