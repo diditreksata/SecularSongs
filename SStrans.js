@@ -1,5 +1,5 @@
 /*!
- * jQuery Chord Transposer plugin v3.6.1
+ * jQuery Chord Transposer plugin v3.7.1
  * http://codegavin.com/projects/transposer
  *
  * Copyright 2010, Jesse Gavin
