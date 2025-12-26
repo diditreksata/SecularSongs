@@ -1,12 +1,12 @@
 /*!
- * jQuery Chord Transposer plugin v3.7.1
- * http://codegavin.com/projects/transposer
+ * jQuery JavaScript Library v3.7.1
+ * https://jquery.com/
  *
- * Copyright 2010, Jesse Gavin
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://codegavin.com/license
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
  *
- * Date: Sat Jun 26 21:27:00 2010 -0600
+ * Date: 2023-08-28T13:37Z
  */
 (function($) {
 
@@ -16,23 +16,23 @@
     var currentKey = null;
     
     var keys = [
-      { name: 'Ab',  value: 0,   type: 'F' },
-      { name: 'A',   value: 1,   type: 'N' },
-      { name: 'A#',  value: 2,   type: 'S' },
-      { name: 'Bb',  value: 2,   type: 'F' },
-      { name: 'B',   value: 3,   type: 'N' },
-      { name: 'C',   value: 4,   type: 'N' },
-      { name: 'C#',  value: 5,   type: 'S' },
-      { name: 'Db',  value: 5,   type: 'F' },
-      { name: 'D',   value: 6,   type: 'N' },
-      { name: 'D#',  value: 7,   type: 'S' },
-      { name: 'Eb',  value: 7,   type: 'F' },
-      { name: 'E',   value: 8,   type: 'N' },
-      { name: 'F',   value: 9,   type: 'N' },
-      { name: 'F#',  value: 10,  type: 'S' },
-      { name: 'Gb',  value: 10,  type: 'F' },
-      { name: 'G',   value: 11,  type: 'N' },
-      { name: 'G#',  value: 0,   type: 'S' }
+      { name: 'C',   value: 0,   type: 'N' },
+      { name: 'C#',  value: 1,   type: 'S' },
+      { name: 'Db',  value: 1,   type: 'F' },
+      { name: 'D',   value: 2,   type: 'N' },
+      { name: 'D#',  value: 3,   type: 'S' },
+      { name: 'Eb',  value: 3,   type: 'F' },
+      { name: 'E',   value: 4,   type: 'N' },
+      { name: 'F',   value: 5,   type: 'N' },
+      { name: 'F#',  value: 6,   type: 'S' },
+      { name: 'Gb',  value: 6,   type: 'F' },
+      { name: 'G',   value: 7,   type: 'N' },
+      { name: 'G#',  value: 8,   type: 'S' },
+      { name: 'Ab',  value: 8,   type: 'F' },
+      { name: 'A',   value: 9,   type: 'N' },
+      { name: 'A#',  value: 10,  type: 'S' },
+      { name: 'Bb',  value: 10,  type: 'F' },
+      { name: 'B',   value: 11,  type: 'N' }
     ];
   
     var getKeyByName = function (name) {
@@ -63,12 +63,9 @@
         }
         
         var i=0;
-        if (keyValue == 0 || keyValue == 2 || keyValue == 5 || keyValue == 7 || keyValue == 10) {
+        if (keyValue == 1 || keyValue == 3 || keyValue == 6 || keyValue == 8 || keyValue == 10) {
             // Return the Flat or Sharp Key
             switch(targetKey.name) {
-              case "A":
-              case "A#":
-              case "B":
               case "C":
               case "C#":
               case "D":
@@ -77,6 +74,9 @@
               case "F#":
               case "G":
               case "G#":
+			  case "A":
+              case "A#":
+              case "B":
                   for (;i<keys.length;i++) {
                     if (keys[i].value == keyValue && keys[i].type == "S") {
                       return keys[i];
